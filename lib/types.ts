@@ -68,10 +68,22 @@ export interface AboutSection {
   description: string;
 }
 
+export interface ContactInfo {
+  email: string;
+  whatsappNumber: string;
+  whatsappDisplay: string;
+}
+
+export interface Social {
+  label: string;
+  href: string;
+  icon: 'whatsapp' | 'facebook' | 'instagram' | 'tiktok';
+}
+
 export interface ContactSection {
   sectionTitle: string;
   description: string;
-  buttons: CTA[];
+  primaryButton: CTA;
 }
 
 export interface FooterSection {
@@ -88,6 +100,8 @@ export interface Portfolio {
   services: ServicesSection;
   tools: ToolsSection;
   about: AboutSection;
+  contactInfo: ContactInfo;
+  socials: Social[];
   contact: ContactSection;
   footer: FooterSection;
 }

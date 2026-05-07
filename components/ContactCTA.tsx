@@ -1,11 +1,27 @@
+'use client';
+
 import Link from 'next/link';
-import type { ContactSection } from '@/lib/types';
+import {
+  FaWhatsapp,
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+} from 'react-icons/fa';
+import type { ContactSection, Social } from '@/lib/types';
 
 interface ContactCTAProps {
   contact: ContactSection;
+  socials: Social[];
 }
 
-export default function ContactCTA({ contact }: ContactCTAProps) {
+const socialIconMap: Record<string, React.ReactNode> = {
+  whatsapp: <FaWhatsapp size={18} />,
+  facebook: <FaFacebookF size={18} />,
+  instagram: <FaInstagram size={18} />,
+  tiktok: <FaTiktok size={18} />,
+};
+
+export default function ContactCTA({ contact, socials }: ContactCTAProps) {
   return (
     <section id="contact" className="py-20 px-6 border-t border-[#25252A]">
       <div className="max-w-4xl mx-auto">
@@ -23,17 +39,29 @@ export default function ContactCTA({ contact }: ContactCTAProps) {
             {contact.description}
           </p>
 
-          {/* Buttons Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
-            {contact.buttons.map((button) => (
+          {/* Primary CTA Button */}
+          <div className="mb-8">
+            <Link
+              href={contact.primaryButton.href}
+              className="inline-block px-8 py-3 bg-[#FF7A1A] hover:bg-[#FF8F3A] text-white rounded-lg font-semibold transition-colors active:scale-95 transition-transform"
+            >
+              {contact.primaryButton.label}
+            </Link>
+          </div>
+
+          {/* Social Icons Row */}
+          <div className="flex items-center justify-center gap-3 flex-wrap">
+            {socials.map((social) => (
               <Link
-                key={button.href}
-                href={button.href}
-                target={button.href.startsWith('http') ? '_blank' : undefined}
-                rel={button.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                className="px-4 py-3 bg-[#FF7A1A] hover:bg-[#FF8F3A] text-white rounded-lg font-semibold text-sm transition-colors active:scale-95 transition-transform"
+                key={social.icon}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-10 h-10 rounded-full border border-[#25252A] hover:border-[#FF7A1A] text-[#B4B4B8] hover:text-[#FF7A1A] transition-all duration-200 hover:bg-[#FF7A1A]/10 group"
+                aria-label={social.label}
+                title={social.label}
               >
-                {button.label}
+                {socialIconMap[social.icon]}
               </Link>
             ))}
           </div>

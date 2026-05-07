@@ -193,27 +193,40 @@
     "sectionTitle": "About Me",
     "description": "I am a freelance video editor focused on cinematic storytelling and visually engaging edits. My work includes documentaries, short films, reels, and wedding videos. I enjoy turning raw footage into polished content that feels clean, emotional, and memorable."
   },
+  "contactInfo": {
+    "email": "kavindudilshanbc69@gmail.com",
+    "whatsappNumber": "94719614139",
+    "whatsappDisplay": "0719614139"
+  },
+  "socials": [
+    {
+      "label": "WhatsApp",
+      "href": "https://wa.me/94719614139",
+      "icon": "whatsapp"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/share/1CguKKe3n4/",
+      "icon": "facebook"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/_k_avi_69_?igsh=a251bDFwODIzNWFn",
+      "icon": "instagram"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@kavindu5678?_r=1&_t=ZS-969UVAkVTsb",
+      "icon": "tiktok"
+    }
+  ],
   "contact": {
     "sectionTitle": "Let's Turn Your Footage Into a Strong Story",
     "description": "If you need a video editor for documentaries, short films, reels, or wedding highlights, I am ready to help.",
-    "buttons": [
-      {
-        "label": "Hire Me",
-        "href": "mailto:hello@example.com"
-      },
-      {
-        "label": "WhatsApp",
-        "href": "https://wa.me/94770000000"
-      },
-      {
-        "label": "Facebook",
-        "href": "https://facebook.com/"
-      },
-      {
-        "label": "Instagram",
-        "href": "https://instagram.com/"
-      }
-    ]
+    "primaryButton": {
+      "label": "Hire Me",
+      "href": "mailto:kavindudilshanbc69@gmail.com"
+    }
   },
   "footer": {
     "text": "Kavindu Dilsshan | Video Editor | Sri Lanka",

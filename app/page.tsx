@@ -28,7 +28,7 @@ export default function Home() {
         <Services services={portfolio.services} />
         <Tools tools={portfolio.tools} />
         <About about={portfolio.about} />
-        <ContactCTA contact={portfolio.contact} />
+        <ContactCTA contact={portfolio.contact} socials={portfolio.socials} />
         <Footer footer={portfolio.footer} />
       </div>
     </main>
