@@ -1,0 +1,239 @@
+{
+  "brand": {
+    "name": "Kavindu Dilsshan",
+    "role": "Video Editor",
+    "location": "Sri Lanka",
+    "logoText": "KD",
+    "availability": "Available for freelance projects"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Cinematic Video Editor",
+    "title": "Kavindu Dilsshan",
+    "subtitle": "Video Editor",
+    "specialization": "Cinematic Documentary, Short Films, Reels, Weddings",
+    "description": "Creative editor at your service. I specialize in crafting high energy, scroll stopping content using CapCut Pro and Adobe Premiere Pro. Whether it is cinematic reels, YouTube vlogs, or sleek brand promos, I focus on rhythmic pacing and visual flair to keep your audience engaged. I am currently expanding my freelance portfolio and am eager to help turn your raw footage into a professional masterpiece.",
+    "primaryCta": {
+      "label": "Hire Me",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "View Work",
+      "href": "#work"
+    },
+    "tags": [
+      "CapCut Pro",
+      "Adobe Premiere Pro",
+      "Freelance Available"
+    ]
+  },
+  "stats": [
+    {
+      "value": "4",
+      "label": "Work Categories"
+    },
+    {
+      "value": "11",
+      "label": "Featured Projects"
+    },
+    {
+      "value": "2",
+      "label": "Editing Tools"
+    },
+    {
+      "value": "100%",
+      "label": "Creative Focus"
+    }
+  ],
+  "work": {
+    "sectionTitle": "Featured Work",
+    "sectionDescription": "A selection of documentaries, short films, reels, and wedding edits.",
+    "projects": [
+      {
+        "title": "Rotaract Club Documentary",
+        "category": "Cinematic Documentary",
+        "platform": "YouTube",
+        "url": "https://youtu.be/2XgH5Ga9Y4U?si=aCnwEOLO2a7qVcLl",
+        "buttonLabel": "Watch Project",
+        "thumbnail": "/images/projects/rotaract-documentary.jpg"
+      },
+      {
+        "title": "University of Kelaniya Documentary",
+        "category": "Cinematic Documentary",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1BSC3uuGAp/",
+        "buttonLabel": "Watch Project",
+        "thumbnail": "/images/projects/uok-documentary-01.jpg"
+      },
+      {
+        "title": "University of Kelaniya Documentary Feature",
+        "category": "Cinematic Documentary",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1DzkoAkT6g/",
+        "buttonLabel": "Watch Project",
+        "thumbnail": "/images/projects/uok-documentary-02.jpg"
+      },
+      {
+        "title": "වෙසක්",
+        "category": "Short Film",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1CWXStvhKv/",
+        "buttonLabel": "Watch Film",
+        "thumbnail": "/images/projects/wesak-short-film.jpg"
+      },
+      {
+        "title": "58න් 59ට",
+        "category": "Short Film",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1AfDyK4bXj/",
+        "buttonLabel": "Watch Film",
+        "thumbnail": "/images/projects/58-59-short-film.jpg"
+      },
+      {
+        "title": "Creative Reel Edit 01",
+        "category": "Reels",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1CNKUSkJ5F/",
+        "buttonLabel": "Watch Reel",
+        "thumbnail": "/images/projects/reel-edit-01.jpg"
+      },
+      {
+        "title": "Creative Reel Edit 02",
+        "category": "Reels",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1BbrJdEK4J/",
+        "buttonLabel": "Watch Reel",
+        "thumbnail": "/images/projects/reel-edit-02.jpg"
+      },
+      {
+        "title": "Creative Reel Edit 03",
+        "category": "Reels",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/18dExwYqs9/",
+        "buttonLabel": "Watch Reel",
+        "thumbnail": "/images/projects/reel-edit-03.jpg"
+      },
+      {
+        "title": "Wedding Highlight Film 01",
+        "category": "Weddings",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1H6BjmiF1d/",
+        "buttonLabel": "Watch Wedding Film",
+        "thumbnail": "/images/projects/wedding-highlight-01.jpg"
+      },
+      {
+        "title": "Wedding Highlight Film 02",
+        "category": "Weddings",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/1Bfp4p3dZt/",
+        "buttonLabel": "Watch Wedding Film",
+        "thumbnail": "/images/projects/wedding-highlight-02.jpg"
+      },
+      {
+        "title": "Wedding Highlight Film 03",
+        "category": "Weddings",
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/share/v/18aspx2Y83/",
+        "buttonLabel": "Watch Wedding Film",
+        "thumbnail": "/images/projects/wedding-highlight-03.jpg"
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "What I Edit",
+    "sectionDescription": "Editing services for creators, brands, students, events, and production teams.",
+    "items": [
+      {
+        "title": "Cinematic Documentary Editing",
+        "description": "Story driven edits with emotional pacing, strong visual mood, and clean transitions."
+      },
+      {
+        "title": "Short Film Editing",
+        "description": "Narrative focused edits for creative storytelling and Sinhala short film productions."
+      },
+      {
+        "title": "Reels and Short Form Content",
+        "description": "Fast paced social media edits built to hold attention and improve viewer retention."
+      },
+      {
+        "title": "Wedding Video Editing",
+        "description": "Beautiful wedding highlight films with polished rhythm, emotion, and clean finishing."
+      }
+    ]
+  },
+  "tools": {
+    "sectionTitle": "Tools I Use",
+    "items": [
+      "CapCut Pro",
+      "Adobe Premiere Pro"
+    ]
+  },
+  "about": {
+    "sectionTitle": "About Me",
+    "description": "I am a freelance video editor focused on cinematic storytelling and visually engaging edits. My work includes documentaries, short films, reels, and wedding videos. I enjoy turning raw footage into polished content that feels clean, emotional, and memorable."
+  },
+  "contact": {
+    "sectionTitle": "Let's Turn Your Footage Into a Strong Story",
+    "description": "If you need a video editor for documentaries, short films, reels, or wedding highlights, I am ready to help.",
+    "buttons": [
+      {
+        "label": "Hire Me",
+        "href": "mailto:hello@example.com"
+      },
+      {
+        "label": "WhatsApp",
+        "href": "https://wa.me/94770000000"
+      },
+      {
+        "label": "Facebook",
+        "href": "https://facebook.com/"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com/"
+      }
+    ]
+  },
+  "footer": {
+    "text": "Kavindu Dilsshan | Video Editor | Sri Lanka",
+    "links": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "Work",
+        "href": "#work"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  }
+}
