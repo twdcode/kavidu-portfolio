@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import type { HeroSection, Stat, Brand } from '@/lib/types';
 
 interface HeroProps {
@@ -64,8 +65,15 @@ export default function Hero({ hero, stats, brand }: HeroProps) {
             <div className="relative w-full max-w-sm bg-[#18181B] border border-[#25252A] rounded-2xl p-8 backdrop-blur-sm">
               {/* Profile Section */}
               <div className="flex flex-col items-center mb-6">
-                <div className="w-24 h-24 bg-gradient-to-br from-[#FF7A1A] to-[#FF8F3A] rounded-full flex items-center justify-center mb-4 text-4xl font-bold text-[#0B0B0C]">
-                  KD
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-4 border-2 border-[#FF7A1A]">
+                  <Image
+                    src="/images/kd-profile.jpg"
+                    alt={brand.name}
+                    width={96}
+                    height={96}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
                 <h3 className="text-xl font-bold text-white mb-1">{brand.name}</h3>
                 <p className="text-[#FF7A1A] font-semibold text-sm mb-4">{brand.role}</p>
